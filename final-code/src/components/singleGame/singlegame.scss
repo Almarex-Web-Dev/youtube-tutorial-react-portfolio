@@ -1,0 +1,30 @@
+.game-card {
+  background: var(--primary-bg);
+  box-shadow: var(--box-shadow);
+  border-radius: 20px;
+  transition: all 350ms linear;
+}
+.game-card:hover {
+  transform: scale(0.97);
+}
+.game-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px 10px 0 0;
+}
+.game-description {
+  padding: 10px;
+  h2 {
+    color: var(--light-bg);
+  }
+}
+.game-icons-wrapper * {
+  color: var(--light-bg);
+  margin: 10px 10px 10px 0;
+  cursor: pointer;
+  transition: 0.2s linear;
+  font-size: 20px;
+}
+.game-icons-wrapper *:hover {
+  transform: translateY(6px);
+}

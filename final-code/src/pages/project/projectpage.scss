@@ -1,0 +1,38 @@
+.section__projects {
+  margin: 120px 0;
+  position: relative;
+}
+.section__projects-title {
+  display: block;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  .text-animate-hover {
+    &:hover {
+      color: var(--hover-color);
+    }
+  }
+}
+.section__projects-description {
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .section__projects-title {
+    font-size: 2.5rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .section__projects-title {
+    font-size: 2.3rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .section__projects-title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+}

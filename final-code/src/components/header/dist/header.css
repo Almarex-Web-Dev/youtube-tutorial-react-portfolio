@@ -1,0 +1,249 @@
+.welcome-note {
+  width: 300px;
+  padding: 10px;
+  background-color: #080808e6;
+  position: fixed;
+  bottom: 120px;
+  right: 0;
+  border-radius: 0 0 5px 5px;
+  backdrop-filter: blur(70%);
+  transition: all 0.2s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  transform: translateX(100%);
+  z-index: 999;
+}
+
+.section-1 {
+  min-height: 110vh;
+  display: flex;
+  place-items: center;
+  font-family: sans-serif;
+  position: relative;
+}
+
+.intro-page h1 {
+  font-size: 2.5em;
+  line-height: 2rem;
+  letter-spacing: -1px;
+  font-weight: 700;
+}
+
+.intro-page h1 .home-logo {
+  width: 30px;
+  animation: fadeInAnimation 2s linear both;
+  animation-delay: 1.4s;
+}
+
+.animate-logo-1 {
+  transition: 0.3s linear;
+  animation: logo 5s cubic-bezier(0.075, 0.82, 0.165, 1) infinite;
+}
+
+.animate-logo-2 {
+  animation: logo 10s cubic-bezier(0.075, 0.82, 0.165, 1) infinite;
+}
+
+@keyframes logo {
+  0% {
+    transform: translateY(-20px);
+  }
+  50% {
+    transform: translateY(40px);
+  }
+}
+.section-1 .float-text {
+  position: absolute;
+  top: 140px;
+  right: 50px;
+  font-family: "La Belle Aurore", sans-serif;
+}
+
+.section-1 .float-text-2 {
+  position: absolute;
+  bottom: 10%;
+  display: block;
+  font-family: "La Belle Aurore", sans-serif;
+}
+
+.section-1 .text-desc {
+  font-size: 0.6em;
+  margin: 30px 0;
+  letter-spacing: 2px;
+  animation: fadeIn 1s 1.4s backwards;
+}
+
+.contact-button {
+  display: block;
+  width: 100%;
+  height: 50px;
+  max-width: 200px;
+  line-height: 50px;
+  position: relative;
+  margin: 50px 0;
+  animation: fadeInAnimation 1s 1.8s backwards;
+  white-space: nowrap;
+}
+
+.contact-button div {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  border-radius: 0 15px 0 15px;
+}
+
+.contact-button span.bg {
+  width: 0%;
+  height: 100%;
+  position: absolute;
+  left: -5%;
+  top: 0;
+  transform: skewX(-10deg);
+  transition: all 0.3s linear;
+}
+
+.contact-button:hover span.bg {
+  width: 110%;
+  border-radius: 0 15px 0 15px;
+}
+
+.contact-button span.base {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 0 15px 0 15px;
+}
+
+.contact-button span.text {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+}
+
+.contact-button:hover span.text {
+  color: #2d2b2b;
+}
+
+.submit-button {
+  margin-top: 10px;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #8a8484;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.submit-button:hover {
+  color: #2d2b2b;
+}
+
+@media screen and (min-width: 2000px) {
+  .intro-page h1 {
+    font-size: 10rem;
+    line-height: 9rem;
+    letter-spacing: -4px;
+  }
+
+  .intro-page h1 .home-logo {
+    width: 100px;
+  }
+
+  .section-1 .text-desc {
+    font-size: 1.5em;
+  }
+}
+@media screen and (max-width: 1900px) {
+  .intro-page h1 {
+    font-size: 5.5rem;
+    line-height: 4.5rem;
+    letter-spacing: -2px;
+  }
+
+  .intro-page h1 .home-logo {
+    width: 60px;
+  }
+
+  .section-1 .text-desc {
+    font-size: 1em;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .intro-page h1 {
+    font-size: 6rem;
+    line-height: 5rem;
+    letter-spacing: -2px;
+  }
+
+  .intro-page h1 .home-logo {
+    width: 60px;
+  }
+
+  .section-1 .text-desc {
+    font-size: 0.9rem;
+  }
+
+  .contact-button {
+    max-width: 220px;
+    height: 50px;
+    line-height: 50px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .intro-page h1 {
+    font-size: 4rem;
+    line-height: 3rem;
+    letter-spacing: -2px;
+  }
+
+  .intro-page h1 .home-logo {
+    width: 50px;
+  }
+
+  .section-1 .text-desc {
+    font-size: 1rem;
+  }
+
+  .contact-button {
+    max-width: 170px;
+    height: 50px;
+    line-height: 50px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .intro-page h1 {
+    font-size: 2.2em;
+    line-height: 2rem;
+    letter-spacing: -1px;
+  }
+
+  .intro-page h1 .home-logo {
+    width: 20px;
+  }
+
+  .section-1 .float-text {
+    position: absolute;
+    bottom: 10px;
+  }
+
+  .section-1 .float-text-2 {
+    display: none;
+  }
+
+  .section-1 .text-desc {
+    width: 100%;
+    max-width: 270px;
+    font-size: 0.7em;
+    margin: 30px 0;
+  }
+
+  .contact-button {
+    max-width: 190px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 0.95rem;
+  }
+}

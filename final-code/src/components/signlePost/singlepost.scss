@@ -1,0 +1,35 @@
+@import 'animate.css';
+
+.section__article {
+  height: auto;
+  background-color: var(--primary-bg);
+  box-shadow: var(--box-shadow);
+  z-index: 1;
+  animation: fadeInUp 1s linear;
+}
+.section__article img {
+  width: 100%;
+  height: 40%;
+  object-fit: cover;
+}
+.article__styles {
+  padding: 1rem;
+  p {
+    margin-top: 1rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .article__styles {
+    padding: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .article__styles h2 {
+    font-size: 1.1rem;
+  }
+  .article__styles {
+    padding: 1.2rem;
+  }
+}

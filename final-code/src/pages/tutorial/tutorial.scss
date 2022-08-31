@@ -1,0 +1,20 @@
+.section__tutorial {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.section__tutorial-wrapper {
+  display: grid;
+  place-items: center;
+  margin: auto;
+}
+.section__tutorial-wrapper img {
+  width: 60%;
+  height: auto;
+  object-fit: cover;
+}
+.section__tutorial-heading {
+  margin-top: 2rem;
+  text-transform: capitalize;
+}

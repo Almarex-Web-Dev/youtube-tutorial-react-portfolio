@@ -1,0 +1,170 @@
+.search-item {
+  width: 90%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.input-search {
+  width: 100%;
+  outline: none;
+  border: none;
+  background: #252423;
+  box-shadow: var(--box-shadow);
+  border-radius: 10px;
+  padding: 20px;
+  font-size: 1.2rem;
+  z-index: 1;
+  margin-bottom: 4rem;
+  color: #fff;
+}
+.input-search::placeholder {
+  color: #504d4b;
+  font-size: 0.6em;
+}
+
+.search-icon {
+  position: absolute;
+  right: 30px;
+  top: 25px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.game-section {
+  padding: 50px 2rem 5rem 2rem;
+}
+.game-section h1 {
+  font-size: 2em;
+  margin: 10px 0;
+}
+
+.hero-section img {
+  width: 100%;
+  height: 350px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.game-wrapper {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: auto;
+  gap: 2rem;
+}
+
+@media screen and (max-width: 1900px) {
+  .game-section {
+    padding: 30px 4rem 5rem 13rem;
+  }
+  .game-section h1 {
+    font-size: 2rem;
+    margin: 10px 0;
+  }
+  .game-section p {
+    font-size: 1.2rem;
+  }
+
+  .game-wrapper {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2em;
+  }
+
+  .hero-section img {
+    height: 250px;
+  }
+
+  .input-search {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .game-section {
+    padding: 40px 4rem 5rem 4rem;
+  }
+  .game-section h1 {
+    font-size: 2.5rem;
+    margin: 10px 0;
+  }
+  .game-section p {
+    font-size: 1.4rem;
+  }
+
+  .game-wrapper {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2em;
+  }
+
+  .hero-section img {
+    height: 320px;
+  }
+
+  .input-search {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 980px) {
+  .game-section {
+    padding: 50px 4rem 5rem 4rem;
+  }
+  .game-section h1 {
+    font-size: 2em;
+    margin: 7px 0;
+  }
+  .game-section p {
+    font-size: 1.5rem;
+  }
+
+  .game-wrapper {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2em;
+  }
+
+  .hero-section img {
+    height: 300px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .game-section {
+    padding: 50px 4rem 5rem 4rem;
+  }
+  .game-section h1 {
+    font-size: 2.5rem;
+  }
+  .game-section p {
+    font-size: 1rem;
+  }
+
+  .game-wrapper {
+    grid-template-columns: 1fr 1fr;
+    gap: 2em;
+  }
+
+  .hero-section img {
+    height: 250px;
+  }
+
+  .input-search {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  .game-section {
+    padding: 80px 2rem 5rem 2rem;
+  }
+  .game-section h1 {
+    font-size: 2em;
+  }
+
+  .hero-section img {
+    height: 200px;
+  }
+
+  .game-wrapper {
+    grid-template-columns: 1fr;
+    gap: 2em;
+  }
+}

@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&family=Montserrat&family=Poppins:wght@300;500;700&display=swap');
+@import 'animate.css';
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Helvetica Neue', sans-serif;
+}
+:root {
+  --primary-bg: #252423;
+  --random-color: #2d2b2b;
+  --primary-color: #797878;
+  --color-tem: #cc6c06;
+  --second-primary-color: #000;
+  --anchor-color: #adabab;
+  --sideBar-bg: #222222;
+  --box-shadow: 0 0 15px 0px #0808084c;
+  --light-bg: #ddd;
+  --typical-color: rgb(0, 0, 0);
+  --theme-wrapper-bg: #252423;
+  --primary-text-color: #878787;
+  --hover-color: #fff;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Helvetica Neue', Arial, sans-serif;
+  overflow-x: hidden;
+  background: var(--primary-bg);
+}
+
+// styling the  scrollbar
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #454545;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgb(128, 128, 128);
+}
+
+// add custom stylings to all some html elements
+p {
+  line-height: 1.5;
+  margin-bottom: 1rem;
+  color: var(--hover-color);
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--color-tem);
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+// custom big faded text stylings
+.fake-big {
+  display: block;
+  font-size: 2.5rem;
+  font-weight: bolder;
+  position: absolute;
+  top: -20px;
+  left: 10%;
+  color: rgba(65, 65, 65, 0.068);
+  text-shadow: 2px 2px 4px 0 rgba(27, 26, 26, 0.5);
+  user-select: none;
+  display: none;
+}
+
+// light mode colors
+.wrapper.light-mode {
+  --primary-bg: #fbf8f8;
+  --random-color: #cdcaca;
+  --primary-color: #504d4b;
+  --color-tem: #504d4b;
+  --second-primary-color: #000;
+  --primary-text-color: #fff;
+  --anchor-color: #cc6c06;
+  --sideBar-bg: #f1f1f1;
+  --box-shadow: 0 0 15px 0px #0808087a;
+  --light-bg: #504d4b;
+  --typical-color: rgb(40, 40, 39);
+  --theme-wrapper-bg: #ffffff;
+  --primary-text-color: #151414;
+  --hover-color: #1b1b1b;
+}
+
+// wrapper for all html elements
+.wrapper {
+  width: 100%;
+  height: auto;
+  background-color: var(--primary-bg);
+  z-index: -999;
+  overflow: hidden;
+}
+
+// custom padding to some elements
+.section__padding {
+  padding: 0 2rem;
+}
+
+// footer
+.footer p {
+  // text-align: center;
+  margin-top: 100px;
+  font-family: 'La Belle Aurore', sans-serif;
+}
+
+// responsive and dynamic padding styles
+@media screen and (min-width: 1200px) {
+  .section__padding {
+    padding-left: 12rem;
+  }
+  .fake-big {
+    display: block;
+    font-size: 20rem;
+    top: -70px;
+    left: 50%;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .section__padding {
+    padding: 0 3rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .section__padding {
+    padding: 0 2rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .section__padding {
+    padding: 0 1.8rem;
+  }
+  p {
+    font-size: 0.875rem;
+  }
+}

@@ -1,0 +1,282 @@
+// template mode styles
+
+// Theme template color 1
+#template-1 {
+  .switch__color,
+  .active-links,
+  h1,
+  h2,
+  h3,
+  h4,
+  .nav__links:hover,
+  .link-icon {
+    color: rgb(16, 219, 246);
+  }
+  .fill__color {
+    fill: rgb(16, 219, 246);
+  }
+  .switch__bg,
+  .skill-container::after,
+  .skill-container:hover,
+  ::-webkit-scrollbar-thumb,
+  .blog-heading::after,
+  .blog-heading::before,
+  .form-input-group input + span::after,
+  .form-input-group textarea + span::after {
+    background-color: rgb(16, 219, 246);
+  }
+  .switch__border-color,
+  .input-search:focus,
+  .active-mode {
+    border: 1px solid rgb(16, 219, 246);
+  }
+  .switch__stroke-color {
+    stroke: rgb(16, 219, 246);
+  }
+  .skill-container:hover .skills-icon,
+  .skill__name {
+    color: var(--hover-color);
+  }
+}
+
+// Theme template color 2
+#template-2 {
+  .switch__color,
+  .active-links,
+  h1,
+  h2,
+  h3,
+  h4,
+  .nav__links:hover,
+  .link-icon {
+    color: rgb(53, 245, 136);
+  }
+
+  .fill__color {
+    fill: rgb(53, 245, 136);
+  }
+  .switch__bg,
+  .skill-container::after,
+  .skill-container:hover,
+  ::-webkit-scrollbar-thumb,
+  .blog-heading::after,
+  .blog-heading::before,
+  .form-input-group input + span::after,
+  .form-input-group textarea + span::after {
+    background-color: rgb(53, 245, 136);
+  }
+  .switch__border-color,
+  .input-search:focus,
+  .active-mode {
+    border: 1px solid rgb(53, 245, 136);
+  }
+  .switch__stroke-color {
+    stroke: rgb(53, 245, 136);
+  }
+  .skill-container:hover .skills-icon,
+  .skill__name {
+    color: var(--hover-color);
+  }
+}
+
+// Theme template color 3
+#template-3 {
+  .switch__color,
+  .active-links,
+  h1,
+  h2,
+  h3,
+  h4,
+  .nav__links:hover,
+  .link-icon {
+    color: rgb(255, 73, 200);
+  }
+
+  .fill__color {
+    fill: rgb(255, 73, 200);
+  }
+  .switch__bg,
+  .skill-container::after,
+  .skill-container:hover,
+  ::-webkit-scrollbar-thumb,
+  .blog-heading::after,
+  .blog-heading::before,
+  .form-input-group input + span::after,
+  .form-input-group textarea + span::after {
+    background-color: rgb(255, 73, 200);
+  }
+  .switch__border-color,
+  .input-search:focus,
+  .active-mode {
+    border: 1px solid rgb(255, 73, 200);
+  }
+  .switch__stroke-color {
+    stroke: rgb(255, 73, 200);
+  }
+  .skill-container:hover .skills-icon,
+  .skill__name {
+    color: var(--hover-color);
+  }
+}
+
+// Theme template color 4
+#template-4 {
+  .switch__color,
+  .active-links,
+  h1,
+  h2,
+  h3,
+  h4,
+  .nav__links:hover,
+  .link-icon {
+    color: rgb(240, 93, 70);
+  }
+  .fill__color {
+    fill: rgb(240, 93, 70);
+  }
+  .switch__bg,
+  .skill-container::after,
+  .skill-container:hover,
+  ::-webkit-scrollbar-thumb,
+  .blog-heading::after,
+  .blog-heading::before,
+  .form-input-group input + span::after,
+  .form-input-group textarea + span::after {
+    background-color: rgb(240, 93, 70);
+  }
+  .switch__border-color,
+  .input-search:focus,
+  .active-mode {
+    border: 2px solid #f05d46;
+  }
+  .switch__stroke-color {
+    stroke: #f05d46;
+  }
+  .skill-container:hover .skills-icon,
+  .skill__name {
+    color: var(--hover-color);
+  }
+}
+
+// Theme template color 5
+#template-5 {
+  .switch__color,
+  .active-links,
+  h1,
+  h2,
+  h3,
+  h4,
+  .nav__links:hover,
+  .link-icon {
+    color: #fdae38;
+  }
+
+  .fill__color {
+    fill: #fdae38;
+  }
+  .switch__bg,
+  .skill-container::after,
+  .skill-container:hover,
+  ::-webkit-scrollbar-thumb,
+  .blog-heading::after,
+  .blog-heading::before,
+  .form-input-group input + span::after,
+  .form-input-group textarea + span::after {
+    background-color: #fdae38;
+  }
+  .switch__border-color,
+  .input-search:focus,
+  .active-mode {
+    border: 1px solid #fdae38;
+  }
+  .switch__stroke-color {
+    stroke: #fdae38;
+  }
+  .skill-container:hover .skills-icon,
+  .skill__name {
+    color: var(--hover-color);
+  }
+}
+
+// Theme template color 6
+#template-6 {
+  .switch__color,
+  .active-links,
+  h1,
+  h2,
+  h3,
+  h4,
+  .nav__links:hover,
+  .link-icon {
+    color: var(--color-tem);
+  }
+
+  .fill__color {
+    fill: var(--color-tem);
+  }
+  .switch__bg,
+  .skill-container::after,
+  .skill-container:hover,
+  ::-webkit-scrollbar-thumb,
+  .blog-heading::after,
+  .blog-heading::before,
+  .form-input-group input + span::after,
+  .form-input-group textarea + span::after {
+    background-color: var(--color-tem);
+  }
+  .switch__border-color,
+  .input-search:focus,
+  .active-mode {
+    border: 1px solid var(--color-tem);
+  }
+  .switch__stroke-color {
+    stroke: var(--color-tem);
+  }
+  .skill-container:hover .skills-icon,
+  .skill__name {
+    color: var(--hover-color);
+  }
+}
+
+// Theme template color 7
+#template-7 {
+  .switch__color,
+  .active-links,
+  h1,
+  h2,
+  h3,
+  h4,
+  .nav__links:hover,
+  .link-icon {
+    color: #a37346;
+  }
+
+  .fill__color {
+    fill: #a37346;
+  }
+  .switch__bg,
+  .skill-container:hover,
+  .skill-container::after,
+  ::-webkit-scrollbar-thumb,
+  .blog-heading::after,
+  .blog-heading::before,
+  .form-input-group input + span::after,
+  .form-input-group textarea + span::after {
+    background-color: #a37346;
+  }
+  .switch__border-color,
+  .input-search:focus,
+  .active-mode {
+    border: 1px solid #a37346;
+  }
+  .switch__stroke-color {
+    stroke: #a37346;
+  }
+  .skill-container:hover .skills-icon,
+  .skill__name {
+    color: var(--hover-color);
+  }
+}
+
+
+// switch the text colors to whichever you like

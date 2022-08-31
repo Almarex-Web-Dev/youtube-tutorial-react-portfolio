@@ -1,0 +1,33 @@
+.logo-container {
+  top: 23%;
+  width: 35%;
+  position: absolute;
+  left: 65%;
+  opacity: 0;
+  display: block;
+}
+.logo-container svg {
+  width: 100%;
+  height: auto;
+  fill: transparent;
+}
+.logo-container .solid-logo {
+  position: absolute;
+  top: auto;
+  right: auto;
+  left: 0;
+  width: 100%;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+.logo-container {
+  stroke: #fff;
+  stroke-width: 1;
+}
+
+@media screen and (max-width: 1150px) {
+  .logo-container {
+    display: none;
+  }
+}

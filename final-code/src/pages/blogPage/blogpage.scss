@@ -1,0 +1,25 @@
+.section__blogpage {
+  margin: 100px 0;
+}
+.section__blogpage-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+@media screen and (max-width: 1900px) {
+  .section__blogpage-wrapper {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media screen and (max-width: 980px) {
+  .section__blogpage-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 690px) {
+  .section__blogpage-wrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

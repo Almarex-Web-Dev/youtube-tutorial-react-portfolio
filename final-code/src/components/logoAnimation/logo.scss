@@ -1,0 +1,35 @@
+.logo-container {
+  top: 12%;
+  width: 33%;
+  position: absolute;
+  left: 63%;
+  display: block;
+  // animation: fadeIn 10s linear;
+  opacity: 0;
+
+  svg {
+    width: 100%;
+    height: auto;
+    fill: transparent;
+  }
+  .solid-logo {
+    position: absolute;
+    top: auto;
+    right: auto;
+    left: 0;
+    width: 100%;
+    opacity: 0.4;
+    z-index: 1;
+  }
+}
+
+.logo-container {
+  stroke: var(--color-tem);
+  stroke-width: 1;
+}
+
+@media screen and (max-width: 1150px) {
+  .logo-container {
+    display: none;
+  }
+}

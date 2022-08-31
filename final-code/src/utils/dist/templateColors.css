@@ -1,0 +1,218 @@
+#template-1 .close-btn,
+#template-1 .menu-icon,
+#template-1 .theme-icon,
+#template-1 .icon,
+#template-1 .logo-name,
+#template-1 .link-icon,
+#template-1 .close-template,
+#template-1 .circle,
+#template-1 h1,
+#template-1 h3,
+#template-1 .skills-icon,
+#template-1 .list:hover,
+#template-1 .arrow-icon,
+#template-1 .search-icon,
+#template-1 .active-links,
+#template-1 .skill-card {
+  color: #10dbf6;
+}
+#template-1 .active-temp {
+  border: 2px solid #10dbf6;
+}
+#template-1 .lower-logo-color {
+  fill: #10dbf6;
+}
+#template-1 .contact-button span.bg,
+#template-1 .skill-container::after,
+#template-1 ::-webkit-scrollbar-thumb,
+#template-1 .form-input-group span::after,
+#template-1 .blog-heading::after,
+#template-1 .blog-heading::before {
+  background-color: #10dbf6;
+}
+#template-1 .contact-button span.base,
+#template-1 .skill-container::after,
+#template-1 .input-search:focus {
+  border: 1px solid #10dbf6;
+}
+
+#template-2 .close-btn,
+#template-2 .menu-icon,
+#template-2 .theme-icon,
+#template-2 .icon,
+#template-2 .logo-name,
+#template-2 .link-icon,
+#template-2 .close-template,
+#template-2 .skills-icon,
+#template-2 .circle,
+#template-2 h1,
+#template-2 h3,
+#template-2 .list:hover,
+#template-2 .arrow-icon,
+#template-2 .search-icon,
+#template-2 .active-links,
+#template-2 .skill-card {
+  color: #35f588;
+}
+#template-2 .active-temp {
+  border: 2px solid #35f588;
+}
+#template-2 .lower-logo-color {
+  fill: #35f588;
+}
+#template-2 .contact-button span.bg,
+#template-2 .skill-container::after,
+#template-2 ::-webkit-scrollbar-thumb,
+#template-2 .form-input-group span::after,
+#template-2 .blog-heading::after,
+#template-2 .blog-heading::before {
+  background-color: #35f588;
+}
+#template-2 .contact-button span.base,
+#template-2 .input-search:focus {
+  border: 1px solid #35f588;
+}
+
+#template-3 .close-btn,
+#template-3 .menu-icon,
+#template-3 .theme-icon,
+#template-3 .icon,
+#template-3 .logo-name,
+#template-3 .link-icon,
+#template-3 .close-template,
+#template-3 .skills-icon,
+#template-3 .circle,
+#template-3 h1,
+#template-3 h3,
+#template-3 .list:hover,
+#template-3 .arrow-icon,
+#template-3 .search-icon,
+#template-3 .active-links, #template-3 .skill-card {
+  color: #ff49c8;
+}
+#template-3 .active-temp {
+  border: 2px solid #ff49c8;
+}
+#template-3 .lower-logo-color {
+  fill: #ff49c8;
+}
+#template-3 .contact-button span.bg,
+#template-3 .skill-container::after,
+#template-3 ::-webkit-scrollbar-thumb,
+#template-3 .form-input-group span::after,
+#template-3 .blog-heading::after,
+#template-3 .blog-heading::before {
+  background-color: #ff49c8;
+}
+#template-3 .contact-button span.base,
+#template-3 .input-search:focus {
+  border: 1px solid #ff49c8;
+}
+
+#template-4 .close-btn,
+#template-4 .menu-icon,
+#template-4 .theme-icon,
+#template-4 .icon,
+#template-4 .logo-name,
+#template-4 .link-icon,
+#template-4 .close-template,
+#template-4 .skills-icon,
+#template-4 .circle,
+#template-4 h1,
+#template-4 h3,
+#template-4 .list:hover,
+#template-4 .arrow-icon,
+#template-4 .search-icon,
+#template-4 .active-links, #template-4 .skill-card {
+  color: #f05d46;
+}
+#template-4 .active-temp {
+  border: 2px solid #f05d46;
+}
+#template-4 .lower-logo-color {
+  fill: #f05d46;
+}
+#template-4 .contact-button span.bg,
+#template-4 .skill-container::after,
+#template-4 ::-webkit-scrollbar-thumb,
+#template-4 .form-input-group span::after,
+#template-4 .blog-heading::after,
+#template-4 .blog-heading::before {
+  background-color: #f05d46;
+}
+#template-4 .contact-button span.base,
+#template-4 .input-search:focus {
+  border: 2px solid #f05d46;
+}
+
+#template-5 .close-btn,
+#template-5 .menu-icon,
+#template-5 .theme-icon,
+#template-5 .icon,
+#template-5 .logo-name,
+#template-5 .link-icon,
+#template-5 .close-template,
+#template-5 .skills-icon,
+#template-5 .circle,
+#template-5 h1,
+#template-5 h3,
+#template-5 .list:hover,
+#template-5 .arrow-icon,
+#template-5 .search-icon,
+#template-5 .active-links, #template-5 .skill-card {
+  color: #31e0ff;
+}
+#template-5 .active-temp {
+  border: 2px solid #31e0ff;
+}
+#template-5 .lower-logo-color {
+  fill: #31e0ff;
+}
+#template-5 .contact-button span.bg,
+#template-5 .skill-container::after,
+#template-5 ::-webkit-scrollbar-thumb,
+#template-5 .form-input-group span::after,
+#template-5 .blog-heading::after,
+#template-5 .blog-heading::before {
+  background-color: #31e0ff;
+}
+#template-5 .contact-button span.base,
+#template-5 .input-search:focus {
+  border: 1px solid #31e0ff;
+}
+
+#template-6 .close-btn,
+#template-6 .menu-icon,
+#template-6 .theme-icon,
+#template-6 .icon,
+#template-6 .logo-name,
+#template-6 .link-icon,
+#template-6 .close-template,
+#template-6 .skills-icon,
+#template-6 .circle,
+#template-6 h1,
+#template-6 h3,
+#template-6 .list:hover,
+#template-6 .arrow-icon,
+#template-6 .search-icon,
+#template-6 .active-links, #template-6 .skill-card {
+  color: var(--color-tem);
+}
+#template-6 .active-temp {
+  border: 2px solid var(--color-tem);
+}
+#template-6 .lower-logo-color {
+  fill: var(--color-tem);
+}
+#template-6 .contact-button span.bg,
+#template-6 .skill-container::after,
+#template-6 ::-webkit-scrollbar-thumb,
+#template-6 .form-input-group span::after,
+#template-6 .blog-heading::after,
+#template-6 .blog-heading::before {
+  background-color: var(--color-tem);
+}
+#template-6 .contact-button span.base,
+#template-6 .input-search:focus {
+  border: 1px solid var(--color-tem);
+}
